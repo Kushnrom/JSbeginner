@@ -16,20 +16,20 @@ for (i = 0; i != 8; i++)
 	{   
 		var a = 8;
 		var d = '';
-		while (a)
-		{
-        d = b + c + d
-		a--;
+		while (a) {
+			d = b + c + d
+			a--;
 		}	
-	console.log(d)
-		if (b == ' ')
-		{b = '#';
-		 c = ' ';
+
+console.log(d)
+		
+		if (b == ' ') {b = '#';
+			c = ' ';
 		}
-		else 
-		{
-		b = ' ';
-		c = '#'
+		
+		else {
+			b = ' ';
+			c = '#'
 		}	
 	}
 		
