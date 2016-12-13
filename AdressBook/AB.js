@@ -1,14 +1,14 @@
 // Practice "adress book"
 //1st part
 function addUser(users) {
-	var​ user = {};
-	user.firstName = prompt​('Введите имя:');
-	user.lastName = prompt​('Введите фамилию:');
-	user.birthDay = prompt​('Дату рождения:');
+	var  user = {};
+	user.firstName = prompt ('Введите имя:');
+	user.lastName = prompt ('Введите фамилию:');
+	user.birthDay = prompt ('Дату рождения:');
 	user.phones = [];
-	while​ (true​) {
-		var​ phone = prompt​('Номер телефона:(для выхода введите пустой номер)');
-		if​ (!phone) break​;
+	while (true ) {
+		var  phone = prompt('Номер телефона:(для выхода введите пустой номер)');
+		if  (!phone) break;
 		user.phones.push(phone);
 	}
 	users.push(user);
