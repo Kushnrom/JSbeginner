@@ -89,7 +89,7 @@ reverseArrayInPlace(arrayValue);
 console.log(arrayValue);  
 // → [5, 4, 3, 2, 1]
 
-//
+//google помог , сил собственно не хватило добить эту задачу , но разобрал и проанализировал , делаю упор на справочник
 <script>
 var user = {
     name: 'Sergey',
